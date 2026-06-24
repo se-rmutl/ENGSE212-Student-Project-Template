@@ -1,0 +1,30 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Dependencies / build
+node_modules/
+dist/
+build/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary office files
+~$*.docx
+~$*.pptx
+*.tmp
+
+# Generated files that should be stored elsewhere unless required
+*.log
+!evidence/logs/.gitkeep
